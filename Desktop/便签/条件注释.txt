@@ -1,0 +1,19 @@
+条件注释属性编辑
+gt : greater than，选择条件版本以上版本，不包含条件版本
+lt : less than，选择条件版本以下版本，不包含条件版本
+gte : greater than or equal，选择条件版本以上版本，包含条件版本
+lte : less than or equal，选择条件版本以下版本，包含条件版本
+! : 选择条件版本以外所有版本，无论高低
+
+
+条件注释写法编辑
+<!--[if IE]>用于 IE <![endif]-->
+<!--[if IE 6]>用于 IE6 <![endif]-->
+<!--[if IE 7]>用于 IE7 <![endif]-->
+<!--[if IE 8]>用于 IE8 <![endif]-->
+<!--[if IE 9]>用于 IE9 <![endif]-->
+<!--[if gt IE 6]> 用于 IE6 以上版本<![endif]-->
+<!--[if lte IE 7]> 用于 IE7或更低版本 <![endif]-->
+<!--[if gte IE 8]>用于 IE8 或更高版本 <![endif]-->
+<!--[if lt IE 9]>用于 IE9 以下版本<![endif]-->
+<!--[if !IE]> -->用于非 IE <!-- <![endif]-->
